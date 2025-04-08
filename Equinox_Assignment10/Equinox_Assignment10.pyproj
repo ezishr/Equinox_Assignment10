@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8b177df9-258a-4a07-b906-645cf5e663e5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>mainPackage\main.py</StartupFile>
+    <StartupFile>ExtractClaus\claus.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ExtractClaus\claus.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExtractClaus\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="mainPackage\main.py" />
     <Compile Include="mainPackage\__init__.py">
       <SubType>Code</SubType>
@@ -31,6 +37,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="ExtractClaus\" />
     <Folder Include="mainPackage\" />
     <Folder Include="dataloadingPackage\" />
   </ItemGroup>
