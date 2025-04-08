@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8b177df9-258a-4a07-b906-645cf5e663e5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>convertJSONtoCSV\JSON_to_CSV.py</StartupFile>
+    <StartupFile>mainPackage\main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   <ItemGroup>
     <Compile Include="convertJSONtoCSV\JSON_to_CSV.py" />
     <Compile Include="convertJSONtoCSV\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dataPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ExtractClaus\remoteurl.py" />
@@ -44,11 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="convertJSONtoCSV\" />
+    <Folder Include="dataPackage\" />
     <Folder Include="ExtractClaus\" />
     <Folder Include="ExtractClaus\__pycache__\" />
     <Folder Include="extractPackage\" />
     <Folder Include="mainPackage\" />
     <Folder Include="dataloadingPackage\" />
+    <Folder Include="CSV data\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ExtractClaus\__pycache__\remoteurl.cpython-313.pyc" />
