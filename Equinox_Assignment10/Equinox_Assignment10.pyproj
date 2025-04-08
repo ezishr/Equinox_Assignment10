@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8b177df9-258a-4a07-b906-645cf5e663e5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ExtractClaus\claus.py</StartupFile>
+    <StartupFile>ExtractClaus\remoteurl.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ExtractClaus\claus.py">
+    <Compile Include="ExtractClaus\remoteurl.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ExtractClaus\__init__.py">
