@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8b177df9-258a-4a07-b906-645cf5e663e5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>extractPackage\extract.py</StartupFile>
+    <StartupFile>mainPackage\main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -37,6 +37,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="extractPackage\" />
     <Folder Include="mainPackage\" />
     <Folder Include="dataloadingPackage\" />
   </ItemGroup>
