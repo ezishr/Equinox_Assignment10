@@ -13,9 +13,9 @@
 # Anything else that's relevant:
 
 
-
 import json
 import requests
+
 def data_loading_function():
     response = requests.get('https://osdr.nasa.gov/osdr/data/osd/files/87')
     json_string = response.content
