@@ -21,6 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ExtractClaus\remoteurl.py" />
+    <Compile Include="ExtractClaus\__init__.py" />
     <Compile Include="extractPackage\extract.py">
       <SubType>Code</SubType>
     </Compile>
@@ -37,9 +39,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="ExtractClaus\" />
+    <Folder Include="ExtractClaus\__pycache__\" />
     <Folder Include="extractPackage\" />
     <Folder Include="mainPackage\" />
     <Folder Include="dataloadingPackage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ExtractClaus\__pycache__\remoteurl.cpython-313.pyc" />
+    <Content Include="ExtractClaus\__pycache__\__init__.cpython-313.pyc" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
