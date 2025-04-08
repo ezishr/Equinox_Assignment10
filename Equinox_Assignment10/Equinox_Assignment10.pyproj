@@ -37,6 +37,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="extractPackage\" />
     <Folder Include="mainPackage\" />
     <Folder Include="dataloadingPackage\" />
   </ItemGroup>
