@@ -30,4 +30,4 @@ if __name__ == '__main__': # Entry point
     get_url_organization(index, data)
 
     # Test the convert_json_to_csv function. Expected output is a CSV file with the data from the JSON file, staying in CSV data folder.
-    convert_json_to_csv(data)
+    convert_json_to_csv(data, file_name = 'NASA_OSD87')
